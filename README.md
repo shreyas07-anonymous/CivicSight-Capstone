@@ -26,6 +26,7 @@ CivicSight is a Multi-Agent system that transforms a single photo into a **Quant
 ---
 
 ## 3. Agent Architecture
+![CivicSight Architecture](civicsight_architecture.png)
 I implemented a **Sequential Multi-Agent Pipeline** powered by **Google Gemini 2.0 Flash**:
 
 * **👁️ Agent-V (Vision):** The Perception Layer. It analyzes images to extract structured metadata (Damage Type, Severity 1-10).
@@ -47,4 +48,5 @@ This project demonstrates **5 Key Agent Concepts**:
 
 1. Clone the repository:
    ```bash
-   git clone [https://github.com/YOUR_USERNAME/CivicSight-Capstone.git](https://github.com/YOUR_USERNAME/CivicSight-Capstone.git)
+
+   git clone [https://github.com/shreyas07-anonymous/CivicSight-Capstone.git](https://github.com/shreyas07-anonymous/CivicSight-Capstone.git)
