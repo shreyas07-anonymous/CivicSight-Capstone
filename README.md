@@ -18,6 +18,9 @@ Urban infrastructure maintenance is currently **reactive** and **unstructured**.
 ## 2. The Solution: CivicSight
 CivicSight is a Multi-Agent system that transforms a single photo into a **Quantified Risk Assessment**. It moves governance from "Reactive Repairs" to "Proactive Auditing."
 
+### 💡 Why AI Agents?
+A standard script can detect a pothole, but it cannot reason about budget constraints or remember context from two weeks ago. Multi-Agent orchestration allows us to separate Observation (Agent-V) from Logic (Risk Tool) and Reasoning (Agent-P), preventing hallucinations and ensuring safety-critical accuracy.
+
 ### 🚀 Key Capabilities
 1.  **Quantifies Risk:** Uses Computer Vision to assign a specific `Risk Index` (0-100) based on severity and environmental context.
 2.  **Long-Term Memory:** Remembers every audit. If you upload a photo of a location that has been reported before, it flags it as a **"Recurring Issue"**.
@@ -46,9 +49,37 @@ This project demonstrates **5 Key Agent Concepts**:
 
 ## 5. How to Run Locally
 
-1. Clone the repository:
-   ```bash
+### Prerequisites
 
-   git clone [https://github.com/shreyas07-anonymous/CivicSight-Capstone.git](https://github.com/shreyas07-anonymous/CivicSight-Capstone.git)
+Python 3.10+
 
+A Google Gemini API Key (Free tier works)
 
+Git installed
+
+### Installation Steps
+
+Clone the repository:
+ ```bash
+git clone [https://github.com/YOUR_USERNAME/CivicSight-Capstone.git](https://github.com/YOUR_USERNAME/CivicSight-Capstone.git)
+```
+Install dependencies:
+ ```bash
+pip install -r requirements.txt
+```
+
+### Set your API Key:
+
+#### Linux/Mac
+```bash
+export GOOGLE_API_KEY="AIzaSy..."
+```
+#### Windows PowerShell
+```bash
+$env:GOOGLE_API_KEY="AIzaSy..."
+```
+
+### Run the app:
+```bash
+streamlit run app.py
+```
