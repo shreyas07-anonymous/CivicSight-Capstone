@@ -1,7 +1,7 @@
 # 👁️ CivicSight: AI-Powered Infrastructure Auditor
 ### 🌍 Track: Agents for Good (Smart Cities & Governance)
 
-[![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](PASTE_YOUR_HUGGINGFACE_LINK_HERE)
+[![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://huggingface.co/spaces/ShreyasPatankar/CivicSight-Live)
 [![Powered by Gemini](https://img.shields.io/badge/Powered%20by-Gemini%202.0-blue)](https://deepmind.google/technologies/gemini/)
 
 ## 🎥 Project Demo
@@ -83,3 +83,4 @@ $env:GOOGLE_API_KEY="AIzaSy..."
 ```bash
 streamlit run app.py
 ```
+
