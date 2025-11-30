@@ -5,7 +5,7 @@
 [![Powered by Gemini](https://img.shields.io/badge/Powered%20by-Gemini%202.0-blue)](https://deepmind.google/technologies/gemini/)
 
 ## 🎥 Project Demo
-### [▶️ Click Here to Watch the Video Walkthrough](PASTE_YOUR_YOUTUBE_LINK_HERE)
+### [▶️ Click Here to Watch the Video Walkthrough](https://youtu.be/lsI6eTmDn6I)
 
 ---
 
@@ -83,4 +83,5 @@ $env:GOOGLE_API_KEY="AIzaSy..."
 ```bash
 streamlit run app.py
 ```
+
 
